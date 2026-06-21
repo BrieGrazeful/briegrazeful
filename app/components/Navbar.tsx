@@ -13,12 +13,12 @@ return (
       <img
         src="/logoB.jpg"
         alt="Brie Grazeful Logo"
-        className="h-20 md:h-32 w-auto"
+        className="h-16 md:h-20 lg:h-24 w-auto"
       />
     </a>
 
     {/* DESKTOP LINKS */}
-    <div className="hidden md:flex items-center gap-8 lg:gap-16 uppercase tracking-[0.25em] text-sm">
+    <div className="hidden md:flex items-center gap-6 lg:gap-10 uppercase tracking-[0.2em] text-sm">
 
       <a href="/" className="hover:opacity-60 transition">
         Home

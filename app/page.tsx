@@ -17,13 +17,13 @@ export default function Home() {
 
         <div className="relative z-10 h-full flex items-end pb-24 px-8 md:px-20">
 
-          <div className="max-w-4xl text-white">
+          <div className="max-w-3xl text-white">
 
-            <p className="uppercase tracking-[0.4em] text-2xl md:text-xl font-bold mb-6 text-[#EBF2FA]">
+            <p className="uppercase tracking-[0.4em] text-base md:text-lg font-bold mb-6 text-[#EBF2FA]">
               Premium Charcuterie & Grazing Experience
             </p>
 
-            <h1 className="font-serif leading-none text-[clamp(3rem,7vw,7rem)]">
+            <h1 className="font-serif leading-none text-[clamp(2.5rem,5vw,4.5rem)]">
               Luxury Experiences To
               <br />
               Leave Lasting Impressions
@@ -72,9 +72,6 @@ export default function Home() {
     </h2>
 
   </div>
-
-  {/*spacer*/}
-  <div className = "h-40"></div>
 
   {/* SERVICES GRID */}
   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

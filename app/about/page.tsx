@@ -7,9 +7,7 @@ export default function AboutPage() {
 
       <Navbar />
 
-      {/* HERO */}
-<section className="relative h-[90vh] overflow-hidden">
-</section>
+
 
       {/* INTRO */}
      {/* ABOUT US */}

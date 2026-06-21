@@ -17,19 +17,19 @@ export default function Home() {
 
         <div className="relative z-10 h-full flex items-end pb-24 px-8 md:px-20">
 
-          <div className="max-w-5xl text-white">
+          <div className="max-w-4xl text-white">
 
             <p className="uppercase tracking-[0.4em] text-2xl md:text-xl font-bold mb-6 text-[#EBF2FA]">
               Premium Charcuterie & Grazing Experience
             </p>
 
-            <h1 className="text-6xl md:text-9xl leading-none font-serif">
+            <h1 className="font-serif leading-none text-[clamp(3rem,7vw,7rem)]">
               Luxury Experiences To
               <br />
               Leave Lasting Impressions
             </h1>
 
-            <p className="mt-10 text-2xl leading-9 max-w-2xl text-[#EAE3DB]">
+            <p className="mt-8 text-lg md:text-xl leading-relaxed max-w-2xl  text-[#EAE3DB]">
               Elevated grazing experiences crafted for weddings, 
               showers, corporate events, and all memorable celebrations
             </p>

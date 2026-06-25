@@ -44,7 +44,7 @@ export default function ServicesPage() {
         {/* IMAGE */}
         <div>
           <img
-            src="/charcuterie.jpg"
+            src="/charcuterie.jpeg"
             className="w-full h-[750px] object-cover rounded-[2rem]"
           />
         </div>
@@ -315,7 +315,7 @@ export default function ServicesPage() {
         {/* IMAGE */}
         <div>
           <img
-            src="/icecream.jpg"
+            src="/icecream.jpeg"
             className="w-full h-[750px] object-cover rounded-[2rem]"
           />
         </div>
@@ -326,7 +326,7 @@ export default function ServicesPage() {
   {/* IMAGE */}
   <div>
     <img
-      src="/acai.jpeg"
+      src="/acai.jpg"
       className="w-full h-[750px] object-cover rounded-[2rem]"
     />
   </div>

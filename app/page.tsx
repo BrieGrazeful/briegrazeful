@@ -93,7 +93,7 @@ export default function Home() {
       <div className="overflow-hidden rounded-[2rem]">
 
         <img
-          src="/charcuterie.jpeg"
+          src="/charcuterie.jpg"
           className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700"
         />
       </div>
@@ -141,7 +141,7 @@ export default function Home() {
       <div className="overflow-hidden rounded-[2rem]">
 
         <img
-          src="/acai.jpg"
+          src="/acai.jpeg"
           className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700"
         />
       </div>

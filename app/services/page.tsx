@@ -133,19 +133,32 @@ export default function ServicesPage() {
 
               {openSection === "pricing" && (
                 <div className="px-8 pb-8 text-lg leading-10 text-[#5A514B]">
-                <div className="bg-[#F5F1EB] rounded-xl p-5">
-                  <strong>Minimum 50 Guests</strong><br />
-                  $35 per guest
+            
+                <div>
+                  <h3 className="text-2xl font-semibold">
+                    Minimum 50 Guests
+                  </h3>
+                  <p className="text-xl text-[#5A514B] mt-1">
+                    $35 per guest
+                  </p>
                 </div>
 
-                <div className="bg-[#F5F1EB] rounded-xl p-5">
-                  <strong>51–100 Guests</strong><br />
-                  $32 per guest
+                <div>
+                  <h3 className="text-2xl font-semibold">
+                    51–100 Guests
+                  </h3>
+                  <p className="text-xl text-[#5A514B] mt-1">
+                    $32 per guest
+                  </p>
                 </div>
 
-                <div className="bg-[#F5F1EB] rounded-xl p-5">
-                  <strong>101–150 Guests</strong><br />
-                  $29 per guest
+                <div>
+                  <h3 className="text-2xl font-semibold">
+                    101–150 Guests
+                  </h3>
+                  <p className="text-xl text-[#5A514B] mt-1">
+                    $29 per guest
+                  </p>
                 </div>
 
                 <ul className="list-disc pl-6 space-y-4">

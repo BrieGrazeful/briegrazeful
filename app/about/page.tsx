@@ -52,7 +52,7 @@ export default function AboutPage() {
 
   <div>
     <img
-      src="/img2.jpg"
+      src="/about1.jpg"
       className="w-full h-full object-cover rounded-[2rem]"
       style={{ objectPosition: "center 30%" }}    
     />

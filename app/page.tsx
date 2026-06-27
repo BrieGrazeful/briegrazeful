@@ -28,7 +28,7 @@ export default function Home() {
           Premium Charcuterie & Grazing Experience
         </p>
 
-        <h1 className="font-serif leading-[0.95] text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="font-serif leading-[0.95] text-4xl md:text-6xl lg:text-7xl">
           Luxury Experiences To
           <br />
           Leave Lasting Impressions
@@ -50,7 +50,7 @@ export default function Home() {
 
           <a
             href="/services"
-            className="border border-white px-8 py-4 rounded-full uppercase tracking-[0.15em] text-sm hover:bg-white hover:text-[#2A2623] transition"
+            className="border border-white px-6 py-4 rounded-full uppercase tracking-[0.15em] text-sm hover:bg-white hover:text-[#2A2623] transition"
           >
             Our Services
           </a>

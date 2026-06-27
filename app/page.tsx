@@ -28,7 +28,7 @@ export default function Home() {
           Premium Charcuterie & Grazing Experience
         </p>
 
-        <h1 className="font-serif leading-[0.95] text-4xl md:text-6xl lg:text-7xl">
+        <h1 className="font-serif leading-[0.95] text-4xl md:text-6xl lg:text-6xl">
           Luxury Experiences To
           <br />
           Leave Lasting Impressions

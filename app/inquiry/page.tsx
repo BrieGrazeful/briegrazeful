@@ -34,6 +34,7 @@ export default function InquiryPage() {
 
     if (response.ok) {
       alert("Inquiry submitted successfully!");
+      e.currentTarget.reset(); // Clears all form fields
     } else {
       alert("Something went wrong.");
     }
@@ -68,23 +69,12 @@ export default function InquiryPage() {
       {/* FORM */}
       <section className="px-8 md:px-20 pb-28">
 
-        <form
+          <form
           onSubmit={sendEmail}
-          className="max-w-6xl mx-auto border border-[#D8CEC4] rounded-[2rem] overflow-hidden bg-white"
-        >
-
-          <div className="grid md:grid-cols-2">
-
-            {/* IMAGE */}
-            <div className="hidden md:block">
-              <img
-                src="/hero.jpg"
-                className="h-full w-full object-cover"
-              />
-            </div>
-
-            {/* FORM SIDE */}
-            <div className="p-8 md:p-12">
+          className="max-w-4xl mx-auto border border-[#D8CEC4] rounded-[2rem] bg-white p-8 md:p-12"
+          >
+            
+            <div>
 
               {/* CONTACT INFO */}
               <div className="mb-14">
@@ -258,7 +248,6 @@ export default function InquiryPage() {
                 >
                   Submit Inquiry
                 </button>
-              </div>
             </div>
           </div>
         </form>

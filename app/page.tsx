@@ -22,14 +22,15 @@ export default function Home() {
     <div className="w-full max-w-[1200px] mx-auto">
 
       {/* TEXT CONTAINER */}
-      <div className="max-w-2xl text-white">
+      <div className="max-w-6xl text-white">
 
         <p className="uppercase tracking-[0.4em] text-sm md:text-lg font-bold mb-6 text-[#EBF2FA]">
           Premium Charcuterie & Grazing Experience
         </p>
 
-        <h1 className="font-serif leading-[0.95] text-4xl md:text-6xl lg:text-6xl">
+        <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[0.95]">
           Luxury Experiences To
+          <br />
           Leave Lasting Impressions
         </h1>
 
@@ -69,7 +70,7 @@ export default function Home() {
 <section className="px-8 md:px-20 py-28 border-b border-[#D8CEC4] bg-white">
 
   {/* HEADER */}
-  <div className="mb-40">
+  <div className="mb-9">
 
     <p className="uppercase tracking-[0.4em] text-sm text-[#8A7B70] mb-6">
       Curated Experiences

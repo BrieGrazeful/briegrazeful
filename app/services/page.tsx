@@ -230,7 +230,7 @@ export default function ServicesPage() {
       <section className="grid md:grid-cols-2 gap-16 px-8 md:px-20 py-20 border-t border-[#D8CEC4]">
 
         {/* CONTENT */}
-        <div>
+        <div className="order-2 md:order-1">
 
           <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-4">
             A Sweet Experience
@@ -338,7 +338,8 @@ export default function ServicesPage() {
         </div>
 
         {/* IMAGE */}
-        <div>
+       {/* IMAGE */}
+        <div className="order-1 md:order-2">
           <img
             src="/icecream.jpeg"
             className="w-full h-[750px] object-cover rounded-[2rem]"

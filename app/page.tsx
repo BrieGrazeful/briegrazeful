@@ -94,7 +94,7 @@ export default function Home() {
 
         <img
           src="/charcuterie.jpg"
-          className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700"
+          className="w-full h-[400px] object-cover group-hover:scale-105 transition duration-700"
         />
       </div>
 
@@ -118,7 +118,7 @@ export default function Home() {
 
         <img
           src="/icecream.jpeg"
-          className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700"
+          className="w-full h-[400px] object-cover group-hover:scale-105 transition duration-700"
         />
       </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
 
         <img
           src="/acai.jpeg"
-          className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700"
+          className="w-full h-[400px] object-cover group-hover:scale-105 transition duration-700"
         />
       </div>
 

@@ -30,7 +30,6 @@ export default function Home() {
 
         <h1 className="font-serif leading-[0.95] text-4xl md:text-6xl lg:text-6xl">
           Luxury Experiences To
-          <br />
           Leave Lasting Impressions
         </h1>
 
@@ -83,7 +82,7 @@ export default function Home() {
   </div>
 
   {/* SERVICES GRID */}
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
     {/* CHARCUTERIE */}
     <a
@@ -94,7 +93,7 @@ export default function Home() {
 
         <img
           src="/charcuterie.jpg"
-          className="w-full h-[650px] object-cover group-hover:scale-105 transition duration-700"
+          className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700"
         />
       </div>
 

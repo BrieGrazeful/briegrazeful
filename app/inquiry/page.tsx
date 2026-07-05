@@ -16,11 +16,27 @@ export default function InquiryPage() {
       name: formData.get("name"),
       email: formData.get("email"),
       phone: formData.get("phone"),
+
       eventDate: formData.get("eventDate"),
+
+      startTime: formData.get("startTime"),
+      startPeriod: formData.get("startPeriod"),
+
+      endTime: formData.get("endTime"),
+      endPeriod: formData.get("endPeriod"),
+
       location: formData.get("location"),
+
+      eventSetting: formData.get("eventSetting"),
+
+      eventType: formData.get("eventType"),
+
       guestCount: formData.get("guestCount"),
+
       budget: formData.get("budget"),
+
       message: formData.get("message"),
+
       services: formData.getAll("services"),
     };
 
@@ -31,13 +47,6 @@ export default function InquiryPage() {
       },
       body: JSON.stringify(data),
     });
-
-    if (response.ok) {
-      alert("Inquiry submitted successfully!");
-      e.currentTarget.reset(); // Clears all form fields
-    } else {
-      alert("Something went wrong.");
-    }
   };
 
   return (

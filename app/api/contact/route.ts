@@ -8,9 +8,16 @@ export async function POST(req: Request) {
     email,
     phone,
     eventDate,
+    startTime,
+    startPeriod,
+    endTime,
+    endPeriod,
+    location,
+    eventSetting,
     eventType,
     guestCount,
-    location,
+    budget,
+    services,
     message,
   } = await req.json();
 
@@ -18,7 +25,7 @@ export async function POST(req: Request) {
     const result = await resend.emails.send({
       from: "onboarding@resend.dev",
       to: "justinramirez2940@gmail.com",
-      subject: `New ${eventType} Inquiry`,
+      subject: `New ${eventType || "Event"} Inquiry`,
       html: `
         <div style="
           font-family: Arial, sans-serif;
@@ -50,7 +57,7 @@ export async function POST(req: Request) {
 
           <div style="margin-bottom: 20px;">
             <strong>Event Type:</strong>
-            <p>${eventType}</p>
+            <p>${eventType || "Not specified"}</p>
           </div>
 
           <div style="margin-bottom: 20px;">
@@ -59,8 +66,20 @@ export async function POST(req: Request) {
           </div>
 
           <div style="margin-bottom: 20px;">
+            <strong>Event Time:</strong>
+            <p>
+              ${startTime || "N/A"} ${startPeriod || ""} - ${endTime || "N/A"} ${endPeriod || ""}
+            </p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
             <strong>Event Location:</strong>
             <p>${location}</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <strong>Indoor or Outdoor:</strong>
+            <p>${eventSetting || "Not specified"}</p>
           </div>
 
           <div style="margin-bottom: 20px;">
@@ -69,8 +88,23 @@ export async function POST(req: Request) {
           </div>
 
           <div style="margin-bottom: 20px;">
+            <strong>Estimated Budget:</strong>
+            <p>${budget || "Not provided"}</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <strong>Requested Services:</strong>
+
+            <ul>
+              ${(services || [])
+                .map((service: string) => `<li>${service}</li>`)
+                .join("")}
+            </ul>
+          </div>
+
+          <div style="margin-bottom: 20px;">
             <strong>Additional Details:</strong>
-            <p>${message}</p>
+            <p>${message || "None provided"}</p>
           </div>
         </div>
       `,

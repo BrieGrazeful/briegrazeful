@@ -155,21 +155,25 @@ export default function FAQPage() {
                 and allergies when booking.
               </p>
 
-              <p className="mt-6 italic">
-             <span
-                style={{
-                  textDecoration: "underline",
-                  textUnderlineOffset: "4px",
-                  textDecorationThickness: "2px",
-                }}
-              >
-                Food Allergy Notice:
-              </span>
-              While we carefully source ingredients and make reasonable efforts
-              to create a safe experience, we cannot guarantee a completely
-              allergen-free environment. We work out of a commercial kitchen,
-              so cross-contamination is possible.
-            </p>
+            <p className="text-lg leading-8 text-[#5A514B]">
+            <span
+              style={{
+                textDecoration: "underline",
+                textUnderlineOffset: "4px",
+                textDecorationThickness: "2px",
+              }}
+            >
+              Food Allergy Notice:
+            </span>
+
+            <br />
+            <br />
+
+            While we carefully source ingredients and make reasonable efforts
+            to create a safe experience, we cannot guarantee a completely
+            allergen-free environment. We work out of a commercial kitchen,
+            so cross-contamination is possible.
+          </p>
             </div>
           )}
         </div>

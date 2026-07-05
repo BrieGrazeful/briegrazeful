@@ -1,53 +1,63 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export default function InquiryPage() {
 
-  const sendEmail = async (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
-    e.preventDefault();
+  const router = useRouter();
+  
+const sendEmail = async (
+  e: React.FormEvent<HTMLFormElement>
+) => {
+  e.preventDefault();
 
-    const formData = new FormData(e.currentTarget);
+  const formData = new FormData(e.currentTarget);
 
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      phone: formData.get("phone"),
+  const data = {
+    name: formData.get("name"),
+    email: formData.get("email"),
+    phone: formData.get("phone"),
 
-      eventDate: formData.get("eventDate"),
+    eventDate: formData.get("eventDate"),
 
-      startTime: formData.get("startTime"),
-      startPeriod: formData.get("startPeriod"),
+    startTime: formData.get("startTime"),
+    startPeriod: formData.get("startPeriod"),
 
-      endTime: formData.get("endTime"),
-      endPeriod: formData.get("endPeriod"),
+    endTime: formData.get("endTime"),
+    endPeriod: formData.get("endPeriod"),
 
-      location: formData.get("location"),
+    location: formData.get("location"),
 
-      eventSetting: formData.get("eventSetting"),
+    eventSetting: formData.get("eventSetting"),
 
-      eventType: formData.get("eventType"),
+    eventType: formData.get("eventType"),
 
-      guestCount: formData.get("guestCount"),
+    guestCount: formData.get("guestCount"),
 
-      budget: formData.get("budget"),
+    budget: formData.get("budget"),
 
-      message: formData.get("message"),
+    message: formData.get("message"),
 
-      services: formData.getAll("services"),
-    };
-
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+    services: formData.getAll("services"),
   };
+
+  const response = await fetch("/api/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  });
+
+  if (response.ok) {
+    e.currentTarget.reset();
+    router.push("/thank-you");
+  } else {
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   return (
     <main className="bg-white text-[#2A2623] min-h-screen">

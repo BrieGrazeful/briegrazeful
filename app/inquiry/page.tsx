@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function InquiryPage() {
 
   const router = useRouter();
-  
+
 const sendEmail = async (
   e: React.FormEvent<HTMLFormElement>
 ) => {
@@ -43,20 +43,23 @@ const sendEmail = async (
     services: formData.getAll("services"),
   };
 
-  const response = await fetch("/api/contact", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
+const response = await fetch("/api/contact", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(data),
+});
 
-  if (response.ok) {
-    e.currentTarget.reset();
-    router.push("/thank-you");
-  } else {
-    alert("Something went wrong. Please try again.");
-  }
+console.log("Status:", response.status);
+
+if (response.ok) {
+  router.push("/thank-you");
+} else {
+  const error = await response.text();
+  console.error(error);
+  alert("Something went wrong.");
+}
 };
 
   return (

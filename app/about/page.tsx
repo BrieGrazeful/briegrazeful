@@ -86,7 +86,7 @@ export default function AboutPage() {
   <p>
     For many years, my work life moved through a demanding pace - 
     long days, endless screen time, and a momentum that seemed to 
-    never ease.. When illness made it impossible to continue
+    never ease. When illness made it impossible to continue
     that lifestyle, everything came to a halt.
   </p>
 
@@ -97,18 +97,14 @@ export default function AboutPage() {
   </p>
 
   <p>
-    I reconnected with what had always brought me joy which is
-    hosting, creating, and bringing people together.
+   I reconnected with what had always brought 
+   me joy which is hosting, creating, and bringing 
+   people together through the love of food. Because 
+   when people share food, they share joy — and joy is 
+   what makes an event unforgettable.
   </p>
-
+  
   <p>
-    I was the person arriving with a thoughtfully styled
-    charcuterie board to gatherings, crafted with intention,
-    styled with love, and made to make people feel cared for.
-  </p>
-
-  <p>
-    Friends and family would light up when they saw it.
     Eventually, I realized if creating these moments brought
     so much joy to others, why not make it my purpose?
   </p>

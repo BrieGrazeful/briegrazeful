@@ -93,7 +93,9 @@ export default function ServicesPage() {
                   <ul className="list-disc pl-6 space-y-3">
                     <li>Charcuterie bar with umbrella</li>
 
-                    <li>Dedicated on-site server</li>
+                    <li>Dedicated on-site servers</li>
+
+                    <li>2 hours of bottomless service</li>
 
                     <li>
                      15 curated selections including artisanal cheeses, meats, fresh fruits, and accompaniments
@@ -105,8 +107,6 @@ export default function ServicesPage() {
                       match your event colors and aesthetic</li>
 
                     <li>Custom menu</li>
-
-                    <li>2 hours of bottomless service</li>
 
                     <li>To-go boxes and bags available for remaining selections</li>
 
@@ -134,29 +134,32 @@ export default function ServicesPage() {
               {openSection === "pricing" && (
                 <div className="px-8 pb-8 text-lg leading-10 text-[#5A514B]">
             
-                <div>
-                  <h3 className="text-2xl font-semibold">
-                    Minimum 50 Guests
-                  </h3>
-                  <p className="text-xl text-[#5A514B] mt-1">
-                    $35 per guest
-                  </p>
-                </div>
+              <div className="mb-8">
+                <h3 className="text-xl font-bold">
+                  Minimum 50 Guests
+                </h3>
 
-                <div>
-                  <h3 className="text-2xl font-semibold">
+                <p className="text-xl text-[#5A514B]">
+                  $35 per guest
+                </p>
+              </div>
+
+               <div className="mb-8">
+                  <h3 className="text-xl font-bold">
                     51–100 Guests
                   </h3>
-                  <p className="text-xl text-[#5A514B] mt-1">
+
+                  <p className="text-xl text-[#5A514B]">
                     $32 per guest
                   </p>
                 </div>
 
-                <div>
-                  <h3 className="text-2xl font-semibold">
+                <div className="mb-8">
+                  <h3 className="text-xl font-bold">
                     101–150 Guests
                   </h3>
-                  <p className="text-xl text-[#5A514B] mt-1">
+
+                  <p className="text-xl text-[#5A514B]">
                     $29 per guest
                   </p>
                 </div>
@@ -272,13 +275,13 @@ export default function ServicesPage() {
                   <ul className="list-disc pl-6 space-y-3">
                     <li>Ice cream sundae bar with umbrella</li>
 
-                    <li>Dedicated on-site server</li>
+                    <li>Dedicated on-site servers</li>
 
                     <li>Up to 2 ice cream flavors</li>
 
-                    <li>Up to 9 toppings</li>
+                    <li>Up to 9 unlimited toppings</li>
 
-                    <li>3+ drizzles</li>
+                    <li>Up to 4 drizzles</li>
 
                     <li>Complete setup, styling, and breakdown</li>
 
@@ -310,20 +313,57 @@ export default function ServicesPage() {
               </button>
 
               {openSection === "icePricing" && (
-                <div className="px-8 pb-8 text-lg leading-10 text-[#5A514B]">
+             <div className="space-y-8">
 
-                   <ul className="list-disc pl-6 space-y-4">
+              <div>
+                <h3 className="text-xl font-bold">
+                  Minimum 50 Guests
+                </h3>
 
-                  <li>Starting at $11/person with a 50 guest minimum</li>
+                <p className="text-xl text-[#5A514B]">
+                  $11 per guest
+                </p>
+              </div>
 
-                  <li>Final price is customized based on guest count, location, design and event details</li>
+              <div>
+                <h3 className="text-xl font-bold">
+                  51–100 Guests
+                </h3>
 
-                  <li>Sales tax is applied to final invoice</li>
+                <p className="text-xl text-[#5A514B]">
+                  $10 per guest
+                </p>
+              </div>
 
-                  <li>Please inquire for a tailored proposal</li>
+              <div>
+                <h3 className="text-xl font-bold">
+                  101–150 Guests
+                </h3>
 
-                  </ul>
-                </div>
+                <p className="text-xl text-[#5A514B]">
+                  $9 per guest
+                </p>
+              </div>
+
+              <ul className="list-disc pl-6 space-y-4">
+
+              <li>
+              Final price is customized based 
+              on guest count, menu selection, 
+              location, design and event details.
+              </li>
+
+              <li>
+              Sales tax is applied to final invoice
+              </li>
+
+              <li>
+              Please inquire for a tailored proposal
+              </li>
+
+              </ul>
+
+              </div>
               )}
             </div>
           </div>
@@ -402,7 +442,7 @@ export default function ServicesPage() {
             <ul className="list-disc pl-6 space-y-3">
               <li>Acai bowl bar with umbrella</li>
 
-              <li>Dedicated on-site server</li>
+              <li>Dedicated on-site servers</li>
 
               <li>Acai bowls</li>
 

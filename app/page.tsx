@@ -118,8 +118,7 @@ export default function Home() {
 
         <img
           src="/icecream.jpeg"
-          className="w-full h-[400px] object-cover group-hover:scale-105 transition duration-700"
-        />
+          className="h-[420px] w-auto object-contain group-hover:scale-105 transition duration-700"        />
       </div>
 
       <div className="mt-6">

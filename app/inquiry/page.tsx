@@ -160,9 +160,6 @@ export default function InquiryPage() {
   </select>
 
 </div>
-<div>
-
-                  </div>
 
                   <input
                     name="location"
@@ -170,22 +167,59 @@ export default function InquiryPage() {
                     className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
                   />
 
+                  <div className="mt-6">
+
+<p className="mb-4 text-lg">
+Indoor or Outdoor Event?
+</p>
+
+<div className="flex gap-8">
+
+<label className="flex items-center gap-2">
+<input
+type="radio"
+name="eventSetting"
+value="Indoor"
+/>
+
+Indoor
+</label>
+
+<label className="flex items-center gap-2">
+<input
+type="radio"
+name="eventSetting"
+value="Outdoor"
+/>
+
+Outdoor
+</label>
+
+</div>
+
+</div>
+
+<div className="mt-6">
+
+<input
+name="eventType"
+placeholder="Event Type"
+className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+/>
+
+</div>
+
                   <input
                     name="guestCount"
                     placeholder="Estimated Guest Count"
                     className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
                   />
 
-                  <select
+                 <input
                     name="budget"
+                    placeholder="Estimated Budget"
                     className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  >
-                    <option>Estimated Budget</option>
-                    <option>$500 - $1,000</option>
-                    <option>$1,000 - $2,500</option>
-                    <option>$2,500 - $5,000</option>
-                    <option>$5,000+</option>
-                  </select>
+                  />
 
                 </div>
               </div>

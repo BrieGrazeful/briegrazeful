@@ -313,51 +313,53 @@ export default function ServicesPage() {
               </button>
 
               {openSection === "icePricing" && (
-              <div className="space-y-10">
+              <div className="px-8 pb-8 text-lg leading-10 text-[#5A514B]">
 
-                <div>
+                <div className="mb-8">
                   <h3 className="text-xl font-bold">
                     Minimum 50 Guests
                   </h3>
 
-                  <p className="text-xl text-[#5A514B] mt-1">
+                  <p className="text-xl text-[#5A514B]">
                     $11 per guest
                   </p>
                 </div>
 
-                <div>
+                <div className="mb-8">
                   <h3 className="text-xl font-bold">
                     51–100 Guests
                   </h3>
 
-                  <p className="text-xl text-[#5A514B] mt-1">
+                  <p className="text-xl text-[#5A514B]">
                     $10 per guest
                   </p>
                 </div>
 
-                <div>
+                <div className="mb-8">
                   <h3 className="text-xl font-bold">
                     101–150 Guests
                   </h3>
 
-                  <p className="text-xl text-[#5A514B] mt-1">
+                  <p className="text-xl text-[#5A514B]">
                     $9 per guest
                   </p>
                 </div>
 
-                <ul className="list-disc pl-6 space-y-5 text-lg text-[#2A2623]">
-                  <li>
-                    Final price is customized based on guest count, menu selection,
-                    location, design and event details.
+                <ul className="list-disc pl-6 space-y-4">
+
+                  <li className="mt-4">
+                    Final price is customized based on guest count,
+                    menu selection, location, design and event details.
                   </li>
 
-                  <li>
+                  <li className="mt-4">
                     Sales tax is applied to final invoice.
                   </li>
 
-                  <li>
+                  <li className="mt-4">
                     Please inquire for a tailored proposal.
                   </li>
+
                 </ul>
 
               </div>
@@ -444,9 +446,9 @@ export default function ServicesPage() {
 
               <li>Acai bowls</li>
 
-              <li>Up to 9 toppings</li>
+              <li>Up to 9 unlimited toppings</li>
 
-              <li>3+ drizzles</li>
+              <li>Up to 4 drizzles</li>
 
               <li>Complete setup, styling, and breakdown</li>
 
@@ -485,7 +487,8 @@ export default function ServicesPage() {
 
             <li>Starting at $16/person with a 50 guest minimum</li>
 
-            <li>Final price is customized based on guest count, location, design and event details</li>
+            <li>Final price is customized based on guest count, menu selection, location, 
+              design and event details</li>
 
             <li>Sales tax is applied to final invoice</li>
 

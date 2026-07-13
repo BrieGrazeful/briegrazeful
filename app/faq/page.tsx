@@ -167,8 +167,6 @@ export default function FAQPage() {
             </span>
 
             <br />
-            <br />
-
             While we carefully source ingredients and make reasonable efforts
             to create a safe experience, we cannot guarantee a completely
             allergen-free environment. We work out of a commercial kitchen,

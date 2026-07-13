@@ -117,7 +117,7 @@ export default function Home() {
       <div className="overflow-hidden rounded-[2rem]">
 
         <img
-          src="/icecream.jpeg"
+          src="/icecream2.png"
           className="h-[400px] w-auto object-contain group-hover:scale-105 transition duration-700"        />
       </div>
 

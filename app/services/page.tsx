@@ -167,8 +167,8 @@ export default function ServicesPage() {
                 <ul className="list-disc pl-6 space-y-4">
 
                   <li className="mt-4">
-                    Final price is customized based on guest count, location, design and 
-                    event details 
+                    Final price is customized based on guest count,
+                    menu selection, location, design and event details
                   </li>
 
                   <li className="mt-4">
@@ -313,58 +313,56 @@ export default function ServicesPage() {
               </button>
 
               {openSection === "icePricing" && (
-             <div className="space-y-8">
+              <div className="space-y-10">
 
-              <div>
-                <h3 className="text-xl font-bold">
-                  Minimum 50 Guests
-                </h3>
+                <div>
+                  <h3 className="text-xl font-bold">
+                    Minimum 50 Guests
+                  </h3>
 
-                <p className="text-xl text-[#5A514B]">
-                  $11 per guest
-                </p>
-              </div>
+                  <p className="text-xl text-[#5A514B] mt-1">
+                    $11 per guest
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-bold">
-                  51–100 Guests
-                </h3>
+                <div>
+                  <h3 className="text-xl font-bold">
+                    51–100 Guests
+                  </h3>
 
-                <p className="text-xl text-[#5A514B]">
-                  $10 per guest
-                </p>
-              </div>
+                  <p className="text-xl text-[#5A514B] mt-1">
+                    $10 per guest
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-bold">
-                  101–150 Guests
-                </h3>
+                <div>
+                  <h3 className="text-xl font-bold">
+                    101–150 Guests
+                  </h3>
 
-                <p className="text-xl text-[#5A514B]">
-                  $9 per guest
-                </p>
-              </div>
+                  <p className="text-xl text-[#5A514B] mt-1">
+                    $9 per guest
+                  </p>
+                </div>
 
-              <ul className="list-disc pl-6 space-y-4">
+                <ul className="list-disc pl-6 space-y-5 text-lg text-[#2A2623]">
+                  <li>
+                    Final price is customized based on guest count, menu selection,
+                    location, design and event details.
+                  </li>
 
-              <li>
-              Final price is customized based 
-              on guest count, menu selection, 
-              location, design and event details.
-              </li>
+                  <li>
+                    Sales tax is applied to final invoice.
+                  </li>
 
-              <li>
-              Sales tax is applied to final invoice
-              </li>
-
-              <li>
-              Please inquire for a tailored proposal
-              </li>
-
-              </ul>
+                  <li>
+                    Please inquire for a tailored proposal.
+                  </li>
+                </ul>
 
               </div>
-              )}
+            )}
+          
             </div>
           </div>
 

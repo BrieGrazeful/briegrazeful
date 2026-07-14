@@ -118,7 +118,7 @@ export default function Home() {
 
         <img
           src="/icecream2.png"
-          className="max-h-[420px] w-auto object-contain group-hover:scale-105 transition duration-700"
+          className="max-h-[500px] w-auto object-contain group-hover:scale-105 transition duration-700"
           alt="Ice Cream Sundae Bar"
         />
 

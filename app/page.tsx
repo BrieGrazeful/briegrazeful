@@ -114,21 +114,22 @@ export default function Home() {
       href="/services"
       className="group"
     >
-      <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem] bg-white h-[500px] flex items-center justify-center">
 
         <img
           src="/icecream2.png"
-          className="h-[400px] w-auto object-contain group-hover:scale-105 transition duration-700"        />
+          className="max-h-[420px] w-auto object-contain group-hover:scale-105 transition duration-700"
+          alt="Ice Cream Sundae Bar"
+        />
+
       </div>
 
       <div className="mt-6">
-
         <h3 className="text-3xl font-serif leading-tight">
           Ice Cream
           <br />
           Sundae Bar
         </h3>
-
       </div>
     </a>
 

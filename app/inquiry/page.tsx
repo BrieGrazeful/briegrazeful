@@ -183,65 +183,60 @@ if (response.ok) {
 
 </div>
 
-                  <input
-                    name="location"
-                    placeholder="Event Location (Venue + City)"
-                    className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  />
-
-                  <div className="mt-6">
-
-<p className="mb-4 text-lg">
-Indoor or Outdoor Event?
-</p>
-
-<div className="flex gap-8">
-
-<label className="flex items-center gap-2">
-<input
-type="radio"
-name="eventSetting"
-value="Indoor"
+ <input
+  name="location"
+  placeholder="Event Location (Venue + City)"
+  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
 />
 
-Indoor
-</label>
+<div className="mb-14">
 
-<label className="flex items-center gap-2">
-<input
-type="radio"
-name="eventSetting"
-value="Outdoor"
-/>
+  <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
+    Indoor or Outdoor Event
+  </p>
 
-Outdoor
-</label>
+  <div className="grid grid-cols-1 gap-4 text-lg">
+
+    <label className="flex items-center gap-4">
+      <input
+        type="radio"
+        name="eventSetting"
+        value="Indoor"
+        required
+      />
+      Indoor
+    </label>
+
+    <label className="flex items-center gap-4">
+      <input
+        type="radio"
+        name="eventSetting"
+        value="Outdoor"
+      />
+      Outdoor
+    </label>
+
+  </div>
 
 </div>
 
-</div>
-
-<div className="mt-6">
-
 <input
-name="eventType"
-placeholder="Event Type"
-className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+  name="eventType"
+  placeholder="Event Type"
+  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
 />
 
-</div>
+<input
+  name="guestCount"
+  placeholder="Estimated Guest Count"
+  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+/>
 
-                  <input
-                    name="guestCount"
-                    placeholder="Estimated Guest Count"
-                    className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  />
-
-                 <input
-                    name="budget"
-                    placeholder="Estimated Budget"
-                    className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  />
+<input
+  name="budget"
+  placeholder="Estimated Budget"
+  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+/>
 
                 </div>
               </div>

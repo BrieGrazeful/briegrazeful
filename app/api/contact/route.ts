@@ -23,8 +23,8 @@ export async function POST(req: Request) {
 
   try {
     const result = await resend.emails.send({
-      from: "onboarding@resend.dev",
-      to: "justinramirez2940@gmail.com",
+      from: "admin@briegrazefulnj.com",
+      to: "admin@briegrazefulnj.com",
       subject: `New ${eventType || "Event"} Inquiry`,
       html: `
         <div style="
@@ -110,7 +110,7 @@ export async function POST(req: Request) {
       `,
     });
     await resend.emails.send({
-  from: "onboarding@resend.dev",
+  from: "admin@briegrazefulnj.com",
   to: email,
   subject: "We Received Your Inquiry ✨",
   html: `

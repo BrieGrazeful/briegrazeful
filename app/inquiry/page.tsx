@@ -199,7 +199,7 @@ if (response.ok) {
 
     <label className="flex items-center gap-4">
       <input
-        type="checkbox"
+        type="radio"
         name="eventSetting"
         value="Indoor"
         required
@@ -209,7 +209,7 @@ if (response.ok) {
 
     <label className="flex items-center gap-4">
       <input
-        type="checkbox"
+        type="radio"
         name="eventSetting"
         value="Outdoor"
       />

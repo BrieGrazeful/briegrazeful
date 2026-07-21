@@ -117,7 +117,7 @@ export default function Home() {
       <div className="h-[500px] overflow-hidden rounded-[2rem] bg-white flex items-center justify-center">
 
         <img
-          src="/icecream2.jpeg"
+          src="/icecream.jpeg"
           className="max-h-[380px] max-w-[85%] object-contain group-hover:scale-105 transition duration-700"
           alt="Ice Cream Sundae Bar"
         />

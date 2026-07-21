@@ -110,7 +110,7 @@ export async function POST(req: Request) {
       `,
     });
     await resend.emails.send({
-  from: "admin@briegrazefulnj.com",
+  from: "Events@briegrazefulnj.com",
   to: email,
   subject: "We Received Your Inquiry ✨",
   html: `

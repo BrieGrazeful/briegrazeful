@@ -104,32 +104,59 @@ if (response.ok) {
                 <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
                   Contact Information
                 </p>
-
-                <div className="space-y-6">
+                <div className="space-y-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    Name <span className="text-[#8B5E3C]">*</span>
+                  </label>
 
                   <input
+                    id="name"
                     name="name"
-                    placeholder="Full Name"
-                    className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+                    type="text"
                     required
-                  />
-
-                  <input
-                    name="email"
-                    type="email"
-                    placeholder="Email Address"
-                    className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                    required
-                  />
-
-                  <input
-                    name="phone"
-                    placeholder="Phone Number"
-                    className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                    required
+                    className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
                   />
                 </div>
-              </div>
+
+                <div className="space-y-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    Email <span className="text-[#8B5E3C]">*</span>
+                  </label>
+
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  />
+                </div>
+
+
+                <div className="space-y-2">
+                  <label
+                    htmlFor="phone"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    Phone <span className="text-[#8B5E3C]">*</span>
+                  </label>
+
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    required
+                    className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  />
+                </div>
+
+                </div>
 
               {/* EVENT DETAILS */}
               <div className="mb-14">
@@ -144,7 +171,7 @@ if (response.ok) {
   name="eventDate"
   type="text"
   placeholder="Event Date"
-  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
 />
 
 <div className="flex gap-4 mt-6">
@@ -186,7 +213,7 @@ if (response.ok) {
  <input
   name="location"
   placeholder="Event Location (Venue + City)"
-  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
 />
 
 <div className="mb-14">
@@ -223,19 +250,19 @@ if (response.ok) {
 <input
   name="eventType"
   placeholder="Event Type"
-  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
 />
 
 <input
   name="guestCount"
   placeholder="Estimated Guest Count"
-  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
 />
 
 <input
   name="budget"
   placeholder="Estimated Budget"
-  className="w-full border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
 />
 
                 </div>
@@ -280,18 +307,21 @@ if (response.ok) {
               </div>
 
               {/* MESSAGE */}
-              <div>
-
-                <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
-                  Additional Details
-                </p>
+             <div className="space-y-2">
+                <label
+                  htmlFor="message"
+                  className="block text-lg tracking-wide text-[#5A514B]"
+                >
+                  Tell us about your event
+                </label>
 
                 <textarea
+                  id="message"
                   name="message"
-                  placeholder="Tell us more about your vision, event aesthetic, or any special details..."
                   rows={6}
-                  className="w-full border border-[#D8CEC4] rounded-[1.5rem] p-6 bg-transparent focus:outline-none text-lg resize-none"
+                  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none resize-none focus:border-[#2A2623] transition-colors"
                 />
+              </div>
 
                 <button
                   type="submit"
@@ -300,7 +330,6 @@ if (response.ok) {
                   Submit Inquiry
                 </button>
             </div>
-          </div>
         </form>
       </section>
 

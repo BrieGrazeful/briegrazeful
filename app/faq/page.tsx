@@ -154,6 +154,7 @@ export default function FAQPage() {
                 Please let us know about any dietary restrictions
                 and allergies when booking.
                 <br />
+                
               </p>
               
 
@@ -165,6 +166,7 @@ export default function FAQPage() {
                 textDecorationThickness: "2px",
               }}
             >
+              <br />
               Food Allergy Notice:
             </span>
 

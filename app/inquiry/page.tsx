@@ -167,103 +167,148 @@ if (response.ok) {
 
                 <div className="space-y-6">
 
-<input
-  name="eventDate"
-  type="text"
-  placeholder="Event Date"
-  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
-/>
+                <div className="space-y-2">
+                  <label
+                    htmlFor="eventDate"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    Event Date
+                  </label>
 
-<div className="flex gap-4 mt-6">
+                  <input
+                    id="eventDate"
+                    name="eventDate"
+                    type="text"
+                    className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  />
+                </div>
 
-  <input
-    name="startTime"
-    placeholder="Start Time"
-    className="flex-1 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-  />
+                <div className="flex gap-4 mt-6">
 
-  <select
-    name="startPeriod"
-    className="w-24 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-  >
-    <option>AM</option>
-    <option>PM</option>
-  </select>
+                  <input
+                    name="startTime"
+                    placeholder="Start Time"
+                    className="flex-1 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+                  />
 
-</div>
+                  <select
+                    name="startPeriod"
+                    className="w-24 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+                  >
+                    <option>AM</option>
+                    <option>PM</option>
+                  </select>
 
-<div className="flex gap-4">
+                </div>
 
-  <input
-    name="endTime"
-    placeholder="End Time"
-    className="flex-1 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-  />
+                <div className="flex gap-4">
 
-  <select
-    name="endPeriod"
-    className="w-24 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-  >
-    <option>AM</option>
-    <option>PM</option>
-  </select>
+                  <input
+                    name="endTime"
+                    placeholder="End Time"
+                    className="flex-1 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+                  />
 
-</div>
+                  <select
+                    name="endPeriod"
+                    className="w-24 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+                  >
+                    <option>AM</option>
+                    <option>PM</option>
+                  </select>
 
- <input
-  name="location"
-  placeholder="Event Location (Venue + City)"
-  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
-/>
+                </div>
 
-<div className="mb-14">
+                <div className="space-y-2">
+                  <label
+                    htmlFor="location"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    Event Location
+                  </label>
 
-  <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
-    Indoor or Outdoor Event
-  </p>
+                  <input
+                    id="location"
+                    name="location"
+                    className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  />
+                </div>
 
-  <div className="grid grid-cols-1 gap-4 text-lg">
+                <div className="mb-14">
 
-    <label className="flex items-center gap-4">
-      <input
-        type="radio"
-        name="eventSetting"
-        value="Indoor"
-        required
-      />
-      Indoor
-    </label>
+                <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
+                  Indoor or Outdoor Event
+                </p>
 
-    <label className="flex items-center gap-4">
-      <input
-        type="radio"
-        name="eventSetting"
-        value="Outdoor"
-      />
-      Outdoor
-    </label>
+                <div className="grid grid-cols-1 gap-4 text-lg">
 
-  </div>
+                  <label className="flex items-center gap-4">
+                    <input
+                      type="radio"
+                      name="eventSetting"
+                      value="Indoor"
+                      required
+                    />
+                    Indoor
+                  </label>
 
-</div>
+                  <label className="flex items-center gap-4">
+                    <input
+                      type="radio"
+                      name="eventSetting"
+                      value="Outdoor"
+                    />
+                    Outdoor
+                  </label>
 
-<input
-  name="eventType"
-  placeholder="Event Type"
-  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
-/>
+                </div>
 
-<input
-  name="guestCount"
-  placeholder="Estimated Guest Count"
-  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
-/>
+              </div>
 
-<input
-  name="budget"
-  placeholder="Estimated Budget"
-  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
-/>
+              <div className="space-y-2">
+                <label
+                  htmlFor="eventType"
+                  className="block text-lg tracking-wide text-[#5A514B]"
+                >
+                  Event Type
+                </label>
+
+                <input
+                  id="eventType"
+                  name="eventType"
+                  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <label
+                  htmlFor="guestCount"
+                  className="block text-lg tracking-wide text-[#5A514B]"
+                >
+                  Estimated Guest Count
+                </label>
+
+                <input
+                  id="guestCount"
+                  name="guestCount"
+                  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <label
+                  htmlFor="budget"
+                  className="block text-lg tracking-wide text-[#5A514B]"
+                >
+                  Estimated Budget
+                </label>
+
+                <input
+                  id="budget"
+                  name="budget"
+                  className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                />
+              </div>
 
                 </div>
               </div>

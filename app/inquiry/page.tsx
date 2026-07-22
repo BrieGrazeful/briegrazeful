@@ -109,7 +109,7 @@ if (response.ok) {
                     htmlFor="name"
                     className="block text-lg tracking-wide text-[#5A514B]"
                   >
-                    Name <span className="text-[#8B5E3C]">*</span>
+                    Name <span className="text-[#8B5E3C]"></span>
                   </label>
 
                   <input
@@ -126,7 +126,7 @@ if (response.ok) {
                     htmlFor="email"
                     className="block text-lg tracking-wide text-[#5A514B]"
                   >
-                    Email <span className="text-[#8B5E3C]">*</span>
+                    Email <span className="text-[#8B5E3C]"></span>
                   </label>
 
                   <input
@@ -144,7 +144,7 @@ if (response.ok) {
                     htmlFor="phone"
                     className="block text-lg tracking-wide text-[#5A514B]"
                   >
-                    Phone <span className="text-[#8B5E3C]">*</span>
+                    Phone <span className="text-[#8B5E3C]"></span>
                   </label>
 
                   <input

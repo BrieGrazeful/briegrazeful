@@ -153,7 +153,9 @@ export default function FAQPage() {
               <p className="mt-4">
                 Please let us know about any dietary restrictions
                 and allergies when booking.
+                <br />
               </p>
+              
 
             <p className="text-lg leading-8 text-[#5A514B]">
             <span

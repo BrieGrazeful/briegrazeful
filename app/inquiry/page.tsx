@@ -84,7 +84,7 @@ if (response.ok) {
         </p>
 
         <p className="mt-6 text-base uppercase tracking-[0.2em] text-[#8A7B70]">
-          Please allow 24-48 hours for a response
+          Please allow 2-3 business days for a response
         </p>
       </section>
 
@@ -93,7 +93,7 @@ if (response.ok) {
 
           <form
           onSubmit={sendEmail}
-          className="max-w-4xl mx-auto border border-[#D8CEC4] rounded-[2rem] bg-white p-8 md:p-12"
+          className="max-w-3xl mx-auto border border-[#D8CEC4] rounded-[2rem] bg-white p-8 md:p-12"
           >
             
             <div>
@@ -188,13 +188,12 @@ if (response.ok) {
                   <input
                     name="startTime"
                     placeholder="Start Time"
-                    className="flex-1 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
+                    className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"             
                   />
 
                   <select
                     name="startPeriod"
-                    className="w-24 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  >
+                    className="w-24 border border-[#8B5E3C] bg-transparent px-4 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  >
                     <option>AM</option>
                     <option>PM</option>
                   </select>
@@ -206,13 +205,11 @@ if (response.ok) {
                   <input
                     name="endTime"
                     placeholder="End Time"
-                    className="flex-1 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  />
+                    className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  />
 
                   <select
                     name="endPeriod"
-                    className="w-24 border-b border-[#D8CEC4] bg-transparent pb-4 focus:outline-none text-lg"
-                  >
+                    className="w-24 border border-[#8B5E3C] bg-transparent px-4 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  >
                     <option>AM</option>
                     <option>PM</option>
                   </select>
@@ -234,7 +231,7 @@ if (response.ok) {
                   />
                 </div>
 
-                <div className="mb-14">
+                <div className="mt-10 mb-14">
 
                 <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
                   Indoor or Outdoor Event

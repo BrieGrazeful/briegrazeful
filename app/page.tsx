@@ -114,7 +114,7 @@ export default function Home() {
       href="/services"
       className="group"
     >
-        <div className="overflow-hidden rounded-[2rem] h-[420px]">
+        <div className="overflow-hidden rounded-[2rem] h-[400px]">
 
         <img
           src="/icecream.jpeg"

@@ -60,9 +60,9 @@ const images = [
         </h1>
 
         <p className="text-xl text-[#5A514B] max-w-3xl leading-relaxed">
-          Every event is thoughtfully styled to create memorable
-          experiences. Browse a collection of our favorite luxury
-          charcuterie, ice cream, and acai bar setups.
+           Every event is thoughtfully styled to create memorable experiences. 
+           Browse a collection of our luxury charcuterie bar, 
+           sweet ice cream sundae bar, and wellness acai bowl bar setups.
         </p>
 
       </section>

@@ -118,7 +118,7 @@ export default function Home() {
 
         <img
           src="/icecream.jpeg"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-[400px] object-cover group-hover:scale-105 transition duration-700"
           alt="Ice Cream Sundae Bar"
         />
 

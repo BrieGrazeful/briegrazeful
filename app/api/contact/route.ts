@@ -133,7 +133,7 @@ export async function POST(req: Request) {
 
       <p>
         Thank you for reaching out to Brie Grazeful.
-        We’ve received your event inquiry and wewill
+        We’ve received your event inquiry and we will
         review your submission.
       </p>
 

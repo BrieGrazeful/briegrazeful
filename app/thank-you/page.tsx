@@ -18,7 +18,7 @@ export default function ThankYouPage() {
         <p className="text-xl text-[#5A514B] leading-relaxed mb-12">
           Thank you for contacting Brie Grazeful! We've received your inquiry
           and will review the details shortly. A member of our team will be in
-          touch within 24–48 hours.
+          touch within 2-3 business days.
         </p>
 
         <a

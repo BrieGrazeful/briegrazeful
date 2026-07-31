@@ -180,6 +180,7 @@ if (response.ok) {
                     name="eventDate"
                     type="date"
                     className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                    required
                   />
                 </div>
 
@@ -197,6 +198,7 @@ if (response.ok) {
                         name="startTime"
                         type="text"
                         className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                        required                      
                       />
 
                       <select
@@ -248,6 +250,7 @@ if (response.ok) {
                     id="location"
                     name="location"
                     className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                    required
                   />
                 </div>
 
@@ -294,6 +297,7 @@ if (response.ok) {
                   id="eventType"
                   name="eventType"
                   className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  required
                 />
               </div>
 
@@ -309,6 +313,7 @@ if (response.ok) {
                   id="guestCount"
                   name="guestCount"
                   className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  required
                 />
               </div>
 
@@ -324,6 +329,7 @@ if (response.ok) {
                   id="budget"
                   name="budget"
                   className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                  required
                 />
               </div>
 
@@ -344,6 +350,7 @@ if (response.ok) {
                       type="radio"
                       name="services"
                       value="Luxury Charcuterie Bar"
+                      required
                     />
                     Luxury Charcuterie Bar
                   </label>

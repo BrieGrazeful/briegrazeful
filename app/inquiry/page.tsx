@@ -221,7 +221,7 @@ if (response.ok) {
                     htmlFor="location"
                     className="block text-lg tracking-wide text-[#5A514B]"
                   >
-                    Event Location
+                    Event Location (Venue + City)
                   </label>
 
                   <input
@@ -321,7 +321,7 @@ if (response.ok) {
 
                   <label className="flex items-center gap-4">
                     <input
-                      type="checkbox"
+                      type="radio"
                       name="services"
                       value="Luxury Charcuterie Bar"
                     />
@@ -330,7 +330,7 @@ if (response.ok) {
 
                   <label className="flex items-center gap-4">
                     <input
-                      type="checkbox"
+                      type="radio"
                       name="services"
                       value="Ice Cream Sundae Bar"
                     />
@@ -339,7 +339,7 @@ if (response.ok) {
 
                   <label className="flex items-center gap-4">
                     <input
-                      type="checkbox"
+                      type="radio"
                       name="services"
                       value="Acai Bowl Bar"
                     />

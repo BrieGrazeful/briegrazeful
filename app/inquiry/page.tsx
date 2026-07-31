@@ -168,9 +168,9 @@ if (response.ok) {
                 <div className="space-y-6">
 
                 <div className="space-y-2">
-                  <label
+                 <label
                     htmlFor="eventDate"
-                    className="block text-lg tracking-wide text-[#5A514B]"
+                    className="block text-lg tracking-wide text-[#5A514B] mb-2"
                   >
                     Event Date
                   </label>
@@ -178,7 +178,7 @@ if (response.ok) {
                   <input
                     id="eventDate"
                     name="eventDate"
-                    type="text"
+                    type="date"
                     className="w-full border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
                   />
                 </div>

@@ -133,12 +133,15 @@ export async function POST(req: Request) {
 
       <p>
         Thank you for reaching out to Brie Grazeful.
-        We’ve received your event inquiry and will
-        review your submission shortly.
+        We’ve received your event inquiry and wewill
+        review your submission.
       </p>
 
       <p>
-        A member of our team will contact you soon regarding:
+      Please allow 2-3 business days for a response
+
+      <p>
+        A member of our team will contact you regarding:
       </p>
 
       <ul>
@@ -148,7 +151,7 @@ export async function POST(req: Request) {
       </ul>
 
       <p>
-        We’re excited to potentially be part of your special event.
+        We’re excited to be part of your special event.
       </p>
 
       <p style="margin-top: 40px;">

@@ -234,7 +234,7 @@ if (response.ok) {
                 <div className="mt-10 mb-14">
 
                 <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
-                  Indoor or Outdoor Event
+                  Indoor or Outdoor Event?
                 </p>
 
                 <div className="grid grid-cols-1 gap-4 text-lg">
@@ -314,7 +314,7 @@ if (response.ok) {
               <div className="mb-14">
 
                 <p className="uppercase tracking-[0.3em] text-sm text-[#8A7B70] mb-8">
-                  What services are you interested in?
+                  What service are you interested in?
                 </p>
 
                 <div className="grid grid-cols-1 gap-4 text-lg">

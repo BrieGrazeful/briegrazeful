@@ -184,10 +184,15 @@ if (response.ok) {
                 </div>
 
                 <div className="flex gap-4 mt-6">
+                  <label
+                    htmlFor="startTime"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    Start Time <span className="text-[#8B5E3C]"></span>
+                  </label>
 
                   <input
                     name="startTime"
-                    placeholder="Start Time"
                     className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"             
                   />
 
@@ -201,10 +206,15 @@ if (response.ok) {
                 </div>
 
                 <div className="flex gap-4">
+                  <label
+                    htmlFor="endTime"
+                    className="block text-lg tracking-wide text-[#5A514B]"
+                  >
+                    End Time <span className="text-[#8B5E3C]"></span>
+                  </label>
 
                   <input
                     name="endTime"
-                    placeholder="End Time"
                     className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  />
 
                   <select

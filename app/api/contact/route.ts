@@ -138,7 +138,7 @@ export async function POST(req: Request) {
       </p>
 
       <p>
-      Please allow 2-3 business days for a response
+      Please allow 2-3 business days for a response.
 
       <p>
         A member of our team will contact you regarding:

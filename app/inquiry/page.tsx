@@ -183,48 +183,58 @@ if (response.ok) {
                   />
                 </div>
 
-                <div className="flex gap-4 mt-6">
-                  <label
-                    htmlFor="startTime"
-                    className="block text-lg tracking-wide text-[#5A514B]"
-                  >
-                    Start Time <span className="text-[#8B5E3C]"></span>
-                  </label>
+                <div className="mt-6">
+                    <label
+                      htmlFor="startTime"
+                      className="block text-lg tracking-wide text-[#5A514B] mb-2"
+                    >
+                      Start Time
+                    </label>
 
-                  <input
-                    name="startTime"
-                    className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"             
-                  />
+                    <div className="flex gap-4">
+                      <input
+                        id="startTime"
+                        name="startTime"
+                        type="text"
+                        className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                      />
 
-                  <select
-                    name="startPeriod"
-                    className="w-24 border border-[#8B5E3C] bg-transparent px-4 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  >
-                    <option>AM</option>
-                    <option>PM</option>
-                  </select>
+                      <select
+                        name="startPeriod"
+                        className="w-24 border border-[#8B5E3C] bg-transparent px-4 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                      >
+                        <option>AM</option>
+                        <option>PM</option>
+                      </select>
+                    </div>
+                  </div>
 
-                </div>
 
-                <div className="flex gap-4">
-                  <label
-                    htmlFor="endTime"
-                    className="block text-lg tracking-wide text-[#5A514B]"
-                  >
-                    End Time <span className="text-[#8B5E3C]"></span>
-                  </label>
+                <div className="mt-6">
+                    <label
+                      htmlFor="endTime"
+                      className="block text-lg tracking-wide text-[#5A514B] mb-2"
+                    >
+                      End Time
+                    </label>
 
-                  <input
-                    name="endTime"
-                    className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  />
+                    <div className="flex gap-4">
+                      <input
+                        id="endTime"
+                        name="endTime"
+                        type="text"
+                        className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                      />
 
-                  <select
-                    name="endPeriod"
-                    className="w-24 border border-[#8B5E3C] bg-transparent px-4 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"                  >
-                    <option>AM</option>
-                    <option>PM</option>
-                  </select>
-
-                </div>
+                      <select
+                        name="endPeriod"
+                        className="w-24 border border-[#8B5E3C] bg-transparent px-4 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                      >
+                        <option>AM</option>
+                        <option>PM</option>
+                      </select>
+                    </div>
+                  </div>
 
                 <div className="space-y-2">
                   <label

@@ -226,6 +226,7 @@ if (response.ok) {
                         name="endTime"
                         type="text"
                         className="flex-1 border border-[#8B5E3C] bg-transparent px-5 py-4 text-lg outline-none focus:border-[#2A2623] transition-colors"
+                        required
                       />
 
                       <select

@@ -35,13 +35,6 @@ const images = [
   "/gallery/gallery-30.jpeg",
   "/gallery/gallery-31.jpeg",
   "/gallery/gallery-32.jpeg",
-  "/gallery/gallery-33.jpeg",
-  "/gallery/gallery-34.jpeg",
-  "/gallery/gallery-35.jpeg",
-  "/gallery/gallery-36.jpeg",
-  "/gallery/gallery-37.jpeg",
-  "/gallery/gallery-38.jpeg",
-  "/gallery/gallery-39.jpeg",
 ];
 
   return (
